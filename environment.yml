@@ -1,0 +1,53 @@
+name: aaa_curso_2026
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.10.12
+
+  # Jupyter
+  - jupyterlab>=4.0
+  - ipykernel>=6.29
+  - ipywidgets>=8.1
+
+  # Machine Learning clásico
+  - scikit-learn>=1.4
+  - imbalanced-learn>=0.11
+
+  # Deep Learning: PyTorch (CPU) se instala vía pip más abajo
+
+  # Data
+  - numpy>=1.26   # TF 2.21 y PyTorch 2.13 (CPU) son compatibles con NumPy 2.x
+  - pandas>=2.1
+  - scipy>=1.11
+
+  # Visualización
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - plotly>=5.18
+
+  # Utilidades
+  - tqdm>=4.66
+  - requests>=2.31
+  - python-dotenv>=1.0
+
+  # Paquetes vía pip (no disponibles o más actualizados en pip)
+  - pip>=24.0
+  - pip:
+    # PyTorch build CPU (en Windows, las ruedas de PyPI ya son CPU)
+    - torch>=2.1
+    - torchvision>=0.16
+    - torchaudio>=2.1
+    - tensorflow>=2.15       # framework de Deep Learning (Keras incluido)
+    - tensorboard>=2.15      # seguimiento de experimentos
+    - optuna>=3.5            # búsqueda de hiperparámetros
+    - torchinfo>=1.8         # resumen de modelos
+    - gymnasium>=0.29        # entornos de aprendizaje por refuerzo
+    - transformers>=4.38     # arquitecturas Transformer (Módulo 3)
+    - datasets>=2.17
+    - grad-cam>=1.5          # interpretabilidad de CNN (Módulo 2)
+    - opencv-python>=4.9
+    - pillow>=10.2
