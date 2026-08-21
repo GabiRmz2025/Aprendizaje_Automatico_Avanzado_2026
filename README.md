@@ -6,23 +6,18 @@
 ## 🗂️ Contenido Temático
 
 <details open>
-<summary><strong>Introducción: Del Machine Learning clásico al Deep Learning</strong></summary>
+<summary><strong>Introducción: Algoritmos Avanzados de Aprendizaje Automático</strong></summary>
 <ul>
 <li>Guía de aprendizaje</li>
 <li>Herramientas computacionales</li>
 <li>Repaso: Algoritmos de Aprendizaje Automático (clasificación)</li>
      <ul>
+        <li>Repazo algoritmos de Aprendizaje Supervizado no Supervizado</li> 
         <li>Gradient Boosting: XGBoost, LightGBM y CatBoost (supervisado, datos tabulares)</li>
         <li>Clustering basado en densidad: DBSCAN, HDBSCAN y OPTICS (no supervisado)</li>
         <li>Clustering probabilístico: Gaussian Mixture Models y mezclas bayesianas (no supervisado)</li>
     </ul>
-<li>Fundamentos y transición al Deep Learning</li>
-     <ul>
-        <li>Repaso del ML supervisado / no supervisado y sus límites</li>
-        <li>¿Por qué Deep Learning? Datos, cómputo (GPU) y representaciones aprendidas</li>
-        <li>Perceptrón y perceptrón multicapa (MLP)</li>
-        <li>Funciones de activación y retropropagación (intuición)</li>
-    </ul>
+
 </details>
 
 <details>
@@ -73,6 +68,13 @@
 <details>
 <summary><strong>Módulo 3: Aprendizaje por Refuerzo</strong></summary>
 <ul>
+<li>Aprendizaje por Refuerzo</li>
+    <ul>
+    <li>Agente, entorno, política, recompensa y valor</li>
+    <li>Introducción y ejercicios de aprendizaje por refuerzo</li>
+    <li>Deep Q-Networks (DQN), Policy Gradients y Cross-Entropy Method (CEM)</li>
+    </ul>
+
 <li>Arquitectura Transformer</li>
     <ul>
     <li>Multi-Head Self-Attention y positional encoding</li>
@@ -81,13 +83,6 @@
 <li>Modelos generativos</li>
     <ul>
     <li>Autoencoders y Autoencoders Variacionales (VAE)</li>
-    <li>Redes Generativas Antagónicas (GAN) e introducción a difusión</li>
-    </ul>
-<li>Aprendizaje por Refuerzo Profundo</li>
-    <ul>
-    <li>Agente, entorno, política, recompensa y valor</li>
-    <li>Introducción y ejercicios de aprendizaje por refuerzo</li>
-    <li>Deep Q-Networks (DQN), Policy Gradients y Cross-Entropy Method (CEM)</li>
     </ul>
 </ul>
 </details>
